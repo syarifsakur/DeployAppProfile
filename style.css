@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+}
+
+header{
+    margin: auto;
+}
+
+header div{
+    margin: 0 auto;
+    background-image: url("./image/cc");
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+header nav{
+    background-color:rgb(102, 130, 255) ;
+    height: 10vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content:flex-end;
+    align-items:center ;
+    top: 0;
+}
+
+header nav ul{
+   display: flex;
+   align-items: center;
+   margin-right: 10px;
+}
+
+header nav ul li{
+    list-style: none;
+     margin: 0 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+header nav ul li img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+header nav ul li img:hover{
+    opacity: 50%;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+header nav ul li a:hover{
+    color: rgb(3, 85, 225);
+}
+
+main{
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main .main{
+    width: 72%;
+    border: 2px groove rgb(155, 155, 155);
+    border-radius: 10px;
+    
+}
+
+aside{
+width: 25%;
+border: 0px solid black;
+border-radius: 10px;
+box-shadow: 2px 2px 2px rgba(0,0,0,0.8);
+}
+
+aside img{
+    width: 25%;
+}
+
+main .main {
+    margin: 0;
+}
+main .main article {
+    margin: 50px 0 100px 50px;
+}
+
+main .main article div .info{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+main .main article div{
+    display: flex;
+    margin-top: 30px;
+}
+main .main article div ul{
+    display: flex;
+}
+main .main article div ul li{
+    list-style: none;
+    margin: 0 20px;
+}
+
+main .main article img{
+    width: 300px;
+    
+}
+
+main .main  .content{
+    text-align: start;
+    margin: 20px 0;
+    text-decoration: underline;
+}
+
+aside{
+    height: 100vh;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+}
+
+aside img{
+    margin-top: 20px;
+    margin-left: 15.5%;
+    width: 70%;
+    height: 35%;
+    border-radius: 100%;
+}
+aside ul{
+    margin-left: -40px;
+}
+aside ul li{
+    margin-top: 10px;
+    list-style: none;
+}
+
+footer{
+    color: aliceblue;
+    background-color:rgb(102, 130, 255) ;
+    height: 18vh;
+    text-align: center;
+    padding-top: 10px;
+}
+
+footer ul li{
+    list-style: none;
+    text-align: start;
+    margin-top: 6px;
+}
+
+footer ul li a{
+    color: aliceblue;
+}
+
+footer ul{
+    margin-left: 557px;
+    margin-top: 10px;
+}
+
+footer ul li a:hover{
+    color: rgb(3, 85, 225);
+}
